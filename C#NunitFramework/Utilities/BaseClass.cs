@@ -16,13 +16,6 @@ namespace C_NunitFramework.Utilities
     public class BaseClass
     {
 
-        [OneTimeSetUp]
-        public void  oneTimeSetup()
-        {
-            var reporter = new ExtentHtmlReporter("ExtentReports/TestReport.html");
-
-        }
-
 
 
 
